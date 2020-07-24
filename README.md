@@ -1,3 +1,3 @@
 # JEE
-Basic web project with JEE \n
+Basic web project with JEE.
 Tomcat is recommended when running.
