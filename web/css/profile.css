@@ -8,7 +8,12 @@ body {
 h2 {
     color: crimson;
 }
-
+.holder {
+    height: 200px;
+    width: 200px;
+}
 img {
-    border-radius: 400px;
+    /*border-radius: 400px;*/
+    height: 200px;
+    width: 200px;
 }

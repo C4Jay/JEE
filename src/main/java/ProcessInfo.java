@@ -24,6 +24,14 @@ public class ProcessInfo extends HttpServlet {
         request.setAttribute("height",height);
         request.setAttribute("weight",weight);
         request.setAttribute("imgurl",imgurl);
+
+        Sportsman sportsman = new Sportsman(
+                usersName,
+                height,
+                weight,
+                imgurl);
+
+
         getServletContext()
                 .getRequestDispatcher(url)
                 .forward(request,response);

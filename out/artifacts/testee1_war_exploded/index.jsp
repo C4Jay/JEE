@@ -17,16 +17,18 @@
     <label>name: </label>
     <input type="text" name="name">
     <br/>
-    <label>height: </label>
+    <label>height(cm): </label>
     <input type="text" name="height">
     <br/>
-    <label>weight: </label>
+    <label>weight(lbs): </label>
     <input type="text" name="weight">
     <br/>
     <label>photo url: </label>
     <input type="text" name="imgurl">
     <br/>
+    <div class="btn">
     <input type="submit" value="Send">
+    </div>
   </form>
   </body>
 </html>

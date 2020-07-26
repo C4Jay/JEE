@@ -4,6 +4,13 @@ public class Sportsman {
     private String weight;
     private String imgurl;
 
+    public Sportsman(String name, String height, String weight, String imgurl) {
+        this.name = name;
+        this.height = height;
+        this.weight = weight;
+        this.imgurl = imgurl;
+    }
+
     public String getName() {
         return name;
     }
