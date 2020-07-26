@@ -50,8 +50,8 @@ public class ProcessInfo extends HttpServlet {
             String pw = "pass";
             con = DriverManager.getConnection(url, user, pw);
             Statement s = con.createStatement();
-            String query = "INSERT INTO CUSTOMER" + "(name, height, weight, athlete_id, photo) "+
-                    "VALUES ('"+ name + "', '"+ height + "','" + weight + "','" + imgurl + "','NULL)";
+            String query = "INSERT INTO athletes1" + "(name, height, weight, photo, athlete_id) "+
+                    "VALUES ('"+ name + "', '"+ height + "','" + weight + "','" + imgurl + "',NULL)";
             s.executeUpdate(query);
         } catch(ClassNotFoundException e) {
             e.printStackTrace();
