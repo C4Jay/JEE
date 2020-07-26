@@ -17,7 +17,13 @@ public class ProcessInfo extends HttpServlet {
             IOException {
         String url = "/DisInfo.jsp";
         String usersName = request.getParameter("name");
+        String height = request.getParameter("height");
+        String weight = request.getParameter("weight");
+        String imgurl = request.getParameter("imgurl");
         request.setAttribute("usersName", usersName);
+        request.setAttribute("height",height);
+        request.setAttribute("weight",weight);
+        request.setAttribute("imgurl",imgurl);
         getServletContext()
                 .getRequestDispatcher(url)
                 .forward(request,response);

@@ -9,8 +9,16 @@
 <html>
 <head>
     <title>Hello</title>
+    <link href="./css/profile.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-Hello ${usersName}<br/>
+<h2>Profile created succesfully</h2>
+<br/>
+
+<img src=${imgurl}>
+<br/>
+${usersName}<br/>
+${height}<span> cm</span><br/>
+${weight}<span> lbs</span><br/>
 </body>
 </html>

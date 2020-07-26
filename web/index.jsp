@@ -9,12 +9,22 @@
 <html>
   <head>
     <title>Yo Yo</title>
+    <link href="./css/landing.css" rel="stylesheet" type="text/css">
   </head>
   <body>
   <h2>Enter Info below</h2>
   <form action="ProcessInfo" method="post">
-    <label>Name: </label>
+    <label>name: </label>
     <input type="text" name="name">
+    <br/>
+    <label>height: </label>
+    <input type="number" name="height">
+    <br/>
+    <label>weight: </label>
+    <input type="text" name="weight">
+    <br/>
+    <label>photo url: </label>
+    <input type="text" name="imgurl">
     <br/>
     <input type="submit" value="Send">
   </form>
