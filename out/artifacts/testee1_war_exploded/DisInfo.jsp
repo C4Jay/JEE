@@ -14,9 +14,9 @@
 <body>
 <h2>Profile created succesfully</h2>
 <br/>
-<div class="holder">
+
 <img src=${imgurl}>
-</div>
+
 <br/>
 ${usersName}<br/>
 ${height}<span> cm</span><br/>

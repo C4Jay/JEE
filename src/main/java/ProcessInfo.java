@@ -4,6 +4,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.sql.*;
 
 @WebServlet("/ProcessInfo")
 public class ProcessInfo extends HttpServlet {
@@ -20,6 +21,9 @@ public class ProcessInfo extends HttpServlet {
         String height = request.getParameter("height");
         String weight = request.getParameter("weight");
         String imgurl = request.getParameter("imgurl");
+
+        updateDB(usersName,height,weight,imgurl);
+
         request.setAttribute("usersName", usersName);
         request.setAttribute("height",height);
         request.setAttribute("weight",weight);
@@ -35,6 +39,25 @@ public class ProcessInfo extends HttpServlet {
         getServletContext()
                 .getRequestDispatcher(url)
                 .forward(request,response);
+    }
+
+    protected void updateDB(String name, String height, String weight, String imgurl) {
+        Connection con;
+        try{
+            Class.forName("com.mysql.cj.jdbc.Driver");
+            String url = "jdbc:mysql://localhost/users1";
+            String user = "athleteadmin";
+            String pw = "pass";
+            con = DriverManager.getConnection(url, user, pw);
+            Statement s = con.createStatement();
+            String query = "INSERT INTO CUSTOMER" + "(name, height, weight, athlete_id, photo) "+
+                    "VALUES ('"+ name + "', '"+ height + "','" + weight + "','" + imgurl + "','NULL)";
+            s.executeUpdate(query);
+        } catch(ClassNotFoundException e) {
+            e.printStackTrace();
+        } catch(SQLException e) {
+            e.printStackTrace();
+        }
     }
 
 

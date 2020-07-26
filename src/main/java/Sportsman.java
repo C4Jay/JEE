@@ -1,4 +1,8 @@
-public class Sportsman {
+
+import java.io.Serializable;
+
+
+public class Sportsman implements Serializable {
     private String name;
     private String height;
     private String weight;
@@ -9,6 +13,13 @@ public class Sportsman {
         this.height = height;
         this.weight = weight;
         this.imgurl = imgurl;
+    }
+
+    public Sportsman() {
+        this.name = "";
+        this.height = "";
+        this.weight = "";
+        this.imgurl = "";
     }
 
     public String getName() {
