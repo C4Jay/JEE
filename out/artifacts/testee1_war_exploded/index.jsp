@@ -13,6 +13,7 @@
   </head>
   <body>
   <h2>Enter Info below</h2>
+  <h4>${message}</h4>
   <form action="ProcessInfo" method="post">
     <label>name: </label>
     <input type="text" name="name">
