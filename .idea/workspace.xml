@@ -6,14 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6f3f804-e75f-4043-b1b3-d7800ad4fd91" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/testee1_war_exploded/WEB-INF/classes/ProcessInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/testee1_war_exploded/WEB-INF/classes/ProcessInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/testee1_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/testee1_war_exploded/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ProcessInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ProcessInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ProcessInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ProcessInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
-    </list>
+    <list default="true" id="d6f3f804-e75f-4043-b1b3-d7800ad4fd91" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -346,7 +339,7 @@
       <workItem from="1595761005797" duration="11142000" />
       <workItem from="1595836330081" duration="1777000" />
       <workItem from="1596114635106" duration="42000" />
-      <workItem from="1596115756898" duration="6915000" />
+      <workItem from="1596115756898" duration="7431000" />
     </task>
     <task id="LOCAL-00001" summary="profile creator (single profile)">
       <created>1595746503351</created>
@@ -383,7 +376,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595773099951</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="regex-messages">
+      <created>1596123537445</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1596123537446</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -486,10 +486,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1595770587242" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1595773131986">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1596123887374">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1595773131986" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1596123887374" />
     <state x="379" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1596115757005">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
